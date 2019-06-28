@@ -1,0 +1,20 @@
+{
+  "name": "ceyaba",
+  "version": "1.0.0",
+  "description": "Christ Embassy Yaba Site",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss public/css/style.css -w"
+  },
+  "author": "Krane Abel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "node-sass": "^4.12.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
